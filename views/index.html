@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="styles/header.css" type="text/css">
+    <link rel="stylesheet" href="styles/main.css" type="text/css">
+    <link rel="icon" href="/assets/emoji.png">
+    <title>Home</title>
+</head>
+
+<body>
+    <header>
+        <a class="logo" href="/"><img
+                src="https://cdn.discordapp.com/avatars/719524114536333342/5b47cf5a40a99c8668abd5be7a032fcd.png?size=256"
+                alt="logo"></a>
+        <nav>
+            <ul class="nav__links">
+                <li><a href="/support">Suporte</a></li>
+                <li><a href="/commands">Comandos</a></li>
+                <li><a href="/staff">Equipe</a></li>
+            </ul>
+        </nav>
+        <a class="cta" href="/add">Adicionar</a>
+        <p class="menu cta">Menu</p>
+    </header>
+    <div id="mobile__menu" class="overlay">
+        <a class="close">&times;</a>
+        <div class="overlay__content">
+            <a href="/support">Suporte</a>
+            <a href="/commands">Comandos</a>
+            <a href="/staff">Equipe</a>
+        </div>
+    </div>
+
+    <main>
+        <div class="information">
+            <h1 class="title">Star™<span class="badge"><i class="fa fa-check" aria-hidden="true"></i> BOT</span></h1>
+            <p class="description">A Star tem foco em Comandos de diversão, mas também tenho funções de
+                moderação, ultilidades e economia.</p>
+            <a href="/add"><button><i class="fa fa-plus" aria-hidden="true"></i> ADICIONAR</button></a>
+        </div>
+    </main>
+
+    <div class="features">
+        <h1 class="title">Funcionalidades</h1>
+        <p class="description">Veja algumas funcionalidades favoritas dos usuários que a star tem!</p>
+        <div class="card-row">
+            <div class="card">
+                <img src="./assets/autorole.png" alt="AutoRole">
+                <p>O autorole chegou para você dar cargos para novos membros do seu servidor automaticamente quando eles
+                    entrarem no servidor. Chega de dar cargos para novatos manualmente!</p>
+            </div>
+            <div class="card">
+                <img src="./assets/messagelog.png" alt="MessageLog">
+                <p>Fique de olho em tudo no seu servidor com as logs de mensagem, com elas você irá saber mensagens
+                    deletadas, editadas para derrepente provar para aquele usuário que ele realmente disse isto.</p>
+            </div>
+            <div class="card">
+                <img src="./assets/setprefix.png" alt="SetPrefix">
+                <p>Existem muitos bots com o prefixo s! hoje em dia, pensando nisso a equipe da Star criou um sistema
+                    para que você possa alterar o prefixo do bot, evitando conflitos com outros bots.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="links">
+            <a href="/twitter"><i class="fab fa-twitter"></a></i>
+            <a href="/github"><i class="fab fa-github"></i></a>
+            <a href="/discord"><i class="fab fa-discord"></i></a>
+        </div>
+        <p class="copy">&copy; 2021 Star™ Bot | Todos os Direitos Reservados.</p>
+        <p class="designer">Website by TiaGoiNsaNy</p>
+    </footer>
+    <script src="./scripts/mobile.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,125 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:500&display=swap);
+
+.title-staffs {
+    text-align: center;
+    margin: 5%;
+    color: #fff;
+    font-family: Montserrat;
+
+}
+
+.title{
+    margin-top: 3%;
+    font-family: Montserrat, sans-serif;
+    text-align: center;
+    color: #fff;
+}
+
+.developers {
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+
+.cards-equipe {
+    margin-top: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: hsl(230, 8%, 15%);
+    max-width: 250px;
+    box-shadow: 0px 0px 5px black;
+    border-radius: 10px;
+}
+
+.cards-equipe .role {
+    color: hsl(230, 8%, 15%);
+    margin-top: 10px;
+    margin-right: 75%;
+    margin-left: 5%;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    font-family: Montserrat, sans-serif;
+    background-color: #febb0b;
+    text-align: left;
+    font-size: 100%;
+    padding: 1% 2% 1% 2%;
+}
+
+.cards-equipe .avatar {
+    margin: 10px;
+    width: 80%;
+    height: auto;
+    border-radius: 50%;
+    padding: 4px;
+    border: 2px solid #5e6064;
+    transition: border 0.5s;
+}
+
+.cards-equipe .avatar:hover {
+    border: 2px solid #fff;
+    transition: border 0.5s;
+}
+
+.cards-equipe .content h3 {
+    color: #fff;
+    margin: 2%;
+    font-family: Montserrat, sans-serif;
+    font-size: 150%;
+}
+
+.cards-equipe .content p {
+    color: #fff;
+    margin: 2%;
+    font-family: Montserrat, sans-serif;
+    font-size: 80%;
+}
+
+.cards-equipe .content a i {
+    color: #fff;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 200%;
+}
+
+.cards-equipe .content .skills {
+    height: 100%;
+    padding: 10px;
+    text-align: left;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.cards-equipe .content .skills p {
+    color: #fff;
+    font-family: Montserrat, sans-serif;
+    padding-bottom: 4px;
+}
+
+.cards-equipe .content .skills ul {
+    list-style: none;
+    font-family: Montserrat, sans-serif;
+    display: inline-block;
+}
+
+.cards-equipe .content .skills ul li {
+    text-align: center;
+    display: inline-block;
+    padding: 5px;
+    font-size: 10px;
+    margin: 2px;
+    color: #fff;
+    background-color: #191a1d;
+    border-radius: 2px;
+}
+
+@media screen and (max-width: 770px) {
+    .cards-equipe {
+        padding-top: 1px;
+    }
+}

@@ -1,0 +1,211 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:500&display=swap);
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    background-color: #301f2b;
+    /*background-image: url("../assets/background.png");*/
+    background-size: 70px;
+}
+
+main {
+    margin-top: 15%;
+}
+
+main .information {
+    width: 50%;
+    max-width: 400px;
+    min-width: 300px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main .information .title {
+    font-family: Montserrat;
+    font-size: 300%;
+    color: #fff;
+    text-shadow: 0px 0px 10px rgb(54, 54, 54);
+}
+
+main .information .title .badge {
+    margin-left: 5px;
+    font-family: Montserrat;
+    vertical-align: 20px;
+    font-size: 25%;
+    color: #fff;
+    background-color: dodgerblue;
+    padding: 3px 5px 3px 5px;
+    border-radius: 3px;
+    text-shadow: none;
+    box-shadow: 0px 0px 15px rgb(54, 54, 54);
+}
+
+main .information p {
+    font-family: Montserrat;
+    font-size: 100%;
+    color: #fff;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-shadow: 0px 0px 10px rgb(54, 54, 54);
+}
+
+main .information a button {
+    margin: 5%;
+    padding: 8px 10px 8px 10px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 20px;
+    font-family: Montserrat;
+    background-color: #855274;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    box-shadow: 0px 0px 15px rgb(54, 54, 54);
+    animation: float 6s ease-in-out infinite;
+    transition-duration: 0.5s;
+}
+
+@keyframes float {
+    0% {
+        transform: rotate(5deg);
+    }
+    50% {
+        transform: rotate(-5deg);
+    }
+    100% {
+        transform: rotate(5deg);
+    }
+}
+
+main .information a button:hover {
+    background-color: #b85b58;
+    background-size: 10px;
+    transition-duration: 0.5s;
+}
+
+.features {
+    border-top: solid 1px #fff;
+    margin-top: 20%;
+    padding: 30px;
+    background-color: rgb(96, 172, 248);
+    background-image: url("../assets/background.png");
+    background-size: 70px;
+}
+
+.features .title {
+    font-family: Montserrat;
+    font-size: 150%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    color: #fff;
+}
+
+.features .description {
+    font-family: Montserrat;
+    text-align: center;
+    color: #fff;
+}
+
+.features .card-row {
+    margin-top: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: wrap;
+}
+
+.features .card-row .card {
+    width: 80%;
+    max-width: 250px;
+    padding: 35px 20px 35px 20px;
+    background-color: #301f2b;
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    animation: CardAnimatio 6s ease-in-out infinite;
+}
+
+@keyframes CardAnimatio {
+    0% {
+        transform: translate(0, 0px);
+    }
+    50% {
+        transform:  translate(0, 15px);
+    }
+    100% {
+        transform: translate(0, -0px);
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    main .information p {
+        font-size: 70%;
+    }
+}
+
+.features .card-row .card img {
+    width: 100%;
+}
+
+.features .card-row .card h1 {
+    text-align: left;
+    color: rgb(96, 172, 248);
+    margin-bottom: 10px;
+    font-family: Montserrat;
+}
+
+.features .card-row .card p {
+    text-align: left;
+    cursor: pointer;
+    color: rgb(150, 150, 150);
+    font-family: Montserrat;
+    transition-duration: 0.5s;
+}
+
+.features .card-row .card p:hover {
+    color: #fff;
+    transition-duration: 0.5s;
+}
+
+footer {
+    bottom: 0;
+    position: relative;
+    border-top: solid 1px #fff;
+    background-color: #301f2b;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+footer .links {
+    text-align: center;
+}
+
+footer .copy, footer .designer {
+    margin-top: 2%;
+    color: #fff;
+    font-family: Montserrat;
+    text-align: center;
+    opacity: 50%;
+    transition-duration: 0.5s;
+}
+
+footer .designer:hover, footer .copy:hover {
+    opacity: 100%;
+    transition-duration: 0.5s;
+}
+
+footer .links .fab {
+    color: #fff;
+    font-size: 200%;
+    padding-left: 1%;
+    padding-right: 1%;
+}

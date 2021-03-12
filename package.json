@@ -1,0 +1,15 @@
+{
+  "name": "websitestarbot",
+  "version": "1.0.0",
+  "description": "Repositório Oficial do Website da StarBot.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "keywords": [],
+  "author": "stardiscordbot",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

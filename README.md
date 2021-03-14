@@ -6,7 +6,7 @@ Seja bem-vindo ao repositório do website da StarBot, uma aplicação incrivel p
 
 ## `2` **|** Arquitetura:
 
-Todo o projeto foi desenvolvido usando **[HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)**, **[CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)**, e **[JavaScript](https://www.javascript.com/)**, com a framework [Node.js](https://nodejs.org/pt-br/) e utilizando a biblioteca do **[Express](https://www.npmjs.com/package/express)** para iniciar o servidor :computer:
+Todo o projeto foi desenvolvido usando **[HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)**, **[CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)**, e **[JavaScript](https://www.javascript.com/)**, com a framework **[Node.js](https://nodejs.org/pt-br/)** e utilizando a biblioteca do **[Express](https://www.npmjs.com/package/express)** para iniciar o servidor :computer:
 
 ## `3` **|** Links:
 

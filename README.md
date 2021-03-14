@@ -2,7 +2,7 @@
 
 ## `1º` **|** Introdução:
 
-Seja bem-vindo ao repositório do website da StarBot, uma aplicação incrivel para o seu servidor Discord! Que possui varias funcionalidades para ajudar o seu servidor. :heart:
+Seja bem-vindo ao repositório do website da StarBot, uma aplicação incrivel para o seu servidor Discord! Que possui várias funcionalidades para ajudar o seu servidor. :heart:
 
 ## `2º` **|** Arquitetura:
 

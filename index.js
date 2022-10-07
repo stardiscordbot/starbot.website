@@ -6,6 +6,6 @@ app.use(express.static('./views'));
 
 app.use("/", routers);
 
-app.listen(8081, () => {
+app.listen(2101, () => {
     console.log("[SERVER] - Servidor iniciado com Sucesso!");
 });

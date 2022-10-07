@@ -209,3 +209,14 @@ footer .links .fab {
     padding-left: 1%;
     padding-right: 1%;
 }
+
+#appearance-select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url(http://www.webcis.com.br/images/imagens-noticias/select/ico-seta-appearance.gif) no-repeat #eeeeee;
+    background-position: 218px center;
+    width: 70px;
+    height: 30px;
+    border: 1px solid #ddd;
+}

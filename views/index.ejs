@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <%- include('./partials/head'); %>
+</head>
+
+<body>
+    <header>
+        <%- include('./partials/navbar'); %>
+    </header>
+    <div id="mobile__menu" class="overlay">
+        <a class="close">&times;</a>
+        <div class="overlay__content">
+            <a href="/support">Suporte</a>
+            <a href="/commands">Comandos</a>
+            <a href="/staff">Equipe</a>
+        </div>
+    </div>
+
+    <main>
+        <div class="information">
+            <h1 class="title">Star™<span class="badge"><i class="fa fa-check" aria-hidden="true"></i> BOT</span></h1>
+            <p class="description">A Star tem foco em Comandos de diversão, mas também tem funções de
+                moderação, ultilidades e economia.</p>
+            <a href="/add"><button><i class="fa fa-plus" aria-hidden="true"></i> ADICIONAR</button></a>
+        </div>
+    </main>
+
+    <div class="features">
+        <h1 class="title">Funcionalidades</h1>
+        <p class="description">Veja algumas funcionalidades favoritas dos usuários que a star tem!</p>
+        <div class="card-row">
+            <div class="card">
+                <h1>CHATBOT</h1>
+                <p>O Chatbot é um sistnea que tenta simular um ser humano na conversação. O objetivo é responder as perguntas de tal forma que as pessoas tenham a impressão de estar conversando com outra pessoa e não com um robô, util quando você precisa desabafar e não tem ninguém para conversar.</p>
+            </div>
+            <div class="card">
+                <h1>IMAGINE</h1>
+                <p>Resumindo bem, o Imagine é uma IA que gera imagens através de texto utilizando nossos algoritmos, literalmente a imaginação (imagine) é o limite. Semelhante ao DALL-E da OpenAI e ao Stable Diffusion de código aberto.</p>
+            </div>
+            <div class="card">
+                <h1>GIVEAWAYS</h1>
+                <p>Todos adoram sorteios! Crie sorteios em seu servidor para que seus membros possam se divertir tentando ganhar. Além disso tem um sistema super hiper mega fácil de utilizar!</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <%- include('./partials/footer'); %>
+    </footer>
+    <script src="./scripts/mobile.js"></script>
+</body>
+
+</html>

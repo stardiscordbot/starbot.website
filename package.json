@@ -4,12 +4,31 @@
   "description": "Repositório Oficial do Website da StarBot.",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "lint": "eslint --ext .js --ignore-path .gitignore .",
+    "fix": "eslint --ext .js --ignore-path .gitignore --fix ."
   },
   "keywords": [],
   "author": "stardiscordbot",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "axios": "^1.1.2",
+    "body-parser": "^1.20.1",
+    "discord.js": "^14.5.0",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.17.1",
+    "express-session": "^1.17.3",
+    "markdown-it": "^13.0.1",
+    "memorystore": "^1.6.7",
+    "passport": "^0.6.0",
+    "passport-discord": "^0.1.4"
+  },
+  "devDependencies": {
+    "eslint": "^8.24.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.3.0",
+    "eslint-plugin-promise": "^6.0.1"
   }
 }

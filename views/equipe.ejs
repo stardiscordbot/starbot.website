@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+    <%- include('./partials/head'); %>
+</head>
+
+<body>
+    <header>
+        <%- include('./partials/navbar'); %>
+    </header>
+    <div id="mobile__menu" class="overlay">
+        <a class="close">&times;</a>
+        <div class="overlay__content">
+            <a href="/support">Suporte</a>
+            <a href="/commands">Comandos</a>
+            <a href="/staff">Equipe</a>
+        </div>
+    </div>
+
+    <h1 class="title-staffs">Desenvolvedores</h1>
+
+    <div class="developers">
+        <% devInfo.map((mod) => { %>
+            <div class="cards-equipe">
+                <p class="role">DEV</p>
+                <img class="avatar" src="https://cdn.discordapp.com/avatars/<%= mod.user.id %>/<%= mod.user.avatar %>.png?size=4096">
+                <div class="content">
+                    <h3 class="avatar-name"><%= mod.user.username %></h3>
+                    <p text="#ffffff" class="description"><%- mod.user.bio %></p>
+                    <a href="https://discord.gg/U7wzrGr26E"><i class="fab fa-discord"></i></a>
+                    <div class="skills">
+                        <p>Linguagens</p>
+                        <ul>
+                            <li>Java</li>
+                            <li>JavaScript</li>
+                            <li>Typescript</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <% }) %>
+    </div>
+
+    <h1 class="title-staffs">Equipe</h1>
+    
+    <div class="developers">
+        <% modInfo.map((mod) => { %>
+        <div class="cards-equipe">
+            <p class="role">MOD</p>
+            <img class="avatar" src="https://cdn.discordapp.com/avatars/<%= mod.user.id %>/<%= mod.user.avatar %>.png?size=4096">
+            <div class="content">
+                <h3 class="avatar-name"><%= mod.user.username %></h3>
+                <p text="#ffffff" class="description"><%- mod.user.bio %></p>
+                <a href="https://discord.gg/U7wzrGr26E"><i class="fab fa-discord"></i></a>
+            </div>
+        </div>
+        <% }) %>
+    </div>
+    <br><br><br>
+
+    <footer>
+        <%- include('./partials/footer'); %>
+    </footer>
+    <script src="./scripts/mobile.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</body>
+
+</html>

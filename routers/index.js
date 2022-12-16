@@ -38,7 +38,7 @@ router.get('/staff', (request, response) => {
       devInfo,
       bot
     })
-  }, 1000)
+  }, 2000)
 })
 
 router.get('/add', (request, response) => {

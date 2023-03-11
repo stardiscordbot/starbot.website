@@ -23,6 +23,6 @@ jobs:
             git stash save --keep-index
             git pull https://${{ secrets.GITKEY }}:x-oauth-basic@github.com/stardiscordbot/starbot.website.git main --force
             docker rm --force starweb
-            docker build --cpuset-cpus=0 --memory="64m" . -t adgprojects/starweb
+            docker build --cpuset-cpus=0 --memory="128m" . -t adgprojects/starweb
             docker run -p 2101:2101 --network=adg-network -d --restart always --name starweb adgprojects/starweb
             exit

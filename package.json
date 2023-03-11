@@ -4,7 +4,7 @@
   "description": "Repositório Oficial do Website da StarBot.",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node --optimize_for_size --expose-gc --gc-interval=100 .",
     "lint": "eslint --ext .js --ignore-path .gitignore .",
     "fix": "eslint --ext .js --ignore-path .gitignore --fix ."
   },

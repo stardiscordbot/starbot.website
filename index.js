@@ -60,7 +60,7 @@ passport.use(new Strategy({
 
 app.use('/', require('./routers/index'))
 
-app.listen(2101, () => {
+app.listen(process.env.PORT, () => {
   console.log('[SERVER] - Servidor iniciado com Sucesso!')
 })
 require('./bot')
